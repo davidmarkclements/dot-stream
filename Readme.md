@@ -7,8 +7,7 @@ where completion time/amount is unknown
 
 ```javascript
 var dot = require('dot-stream');
-
-dots = dot();
+var dots = dot();
 
 dots.pipe(process.stdout);
 
